@@ -1,0 +1,26 @@
+# Configuration du BuilderPlugin
+messages:
+  prefix: "&8[&6Builder&8] &r"
+  builder-given: "&aLe role Builder a ete donne a &e%player%&a."
+  builder-removed: "&cLe role Builder a ete retire a &e%player%&c."
+  not-builder: "&cCe joueur n'est pas un Builder."
+  already-builder: "&cCe joueur est deja un Builder."
+  no-permission: "&cVous n'avez pas la permission d'utiliser cette commande."
+  zone-set: "&aZone de construction definie pour &e%player%&a."
+  zone-deleted: "&cZone de construction supprimee pour &e%player%&c."
+  no-zone: "&cAucune zone definie pour &e%player%&c."
+  outside-zone: "&cVous ne pouvez pas construire en dehors de votre zone !"
+  command-block-denied: "&cVous ne pouvez pas poser de blocs de commande !"
+  zone-info: "&aZone de &e%player%&a : &7(%x1%, %y1%, %z1%) &ato &7(%x2%, %y2%, %z2%) &adans &7%world%"
+  no-builders: "&cAucun builder enregistre."
+  usage-give: "&cUsage: /builder give <joueur>"
+  usage-remove: "&cUsage: /builder remove <joueur>"
+  usage-setzone: "&cUsage: /builder setzone <joueur> <x1> <y1> <z1> <x2> <y2> <z2> [monde]"
+  usage-delzone: "&cUsage: /builder delzone <joueur>"
+  usage-info: "&cUsage: /builder info <joueur>"
+  player-not-found: "&cJoueur introuvable."
+
+# Format du tag builder
+builder-tag:
+  tab-prefix: "&6[Builder] &r"
+  nametag-prefix: "&6[Builder]\n&r"

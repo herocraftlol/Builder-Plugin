@@ -1,0 +1,6 @@
+fr/builderplugin/BuilderPlugin.class
+fr/builderplugin/commands/BuilderCommand.class
+fr/builderplugin/managers/BuilderManager.class
+fr/builderplugin/managers/ZoneManager.class
+fr/builderplugin/listeners/BuilderListener.class
+fr/builderplugin/managers/BuilderZone.class

@@ -1,0 +1,17 @@
+name: BuilderPlugin
+version: '1.0.0'
+main: fr.builderplugin.BuilderPlugin
+api-version: '1.21'
+description: Plugin de gestion des Builders avec zone de construction restreinte
+authors: [BuilderPlugin]
+
+permissions:
+  builderplugin.admin:
+    description: Accès aux commandes d'administration du plugin Builder
+    default: op
+
+commands:
+  builder:
+    description: Commandes de gestion des builders
+    usage: /builder <give|remove|setzone|delzone|info|list> [joueur]
+    aliases: [b]

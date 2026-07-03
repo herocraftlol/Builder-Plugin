@@ -1,0 +1,6 @@
+/workspace/Builder-Plugin/src/main/java/fr/builderplugin/BuilderPlugin.java
+/workspace/Builder-Plugin/src/main/java/fr/builderplugin/commands/BuilderCommand.java
+/workspace/Builder-Plugin/src/main/java/fr/builderplugin/listeners/BuilderListener.java
+/workspace/Builder-Plugin/src/main/java/fr/builderplugin/managers/BuilderManager.java
+/workspace/Builder-Plugin/src/main/java/fr/builderplugin/managers/BuilderZone.java
+/workspace/Builder-Plugin/src/main/java/fr/builderplugin/managers/ZoneManager.java
