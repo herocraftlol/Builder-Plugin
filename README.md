@@ -1,47 +1,47 @@
 # BuilderPlugin
 
-> A Minecraft 1.21 Paper/Purpur plugin for managing Builder roles with restricted building zones.
+> Un plugin Minecraft 1.21 Paper/Purpur permettant de gérer le rôle Builder avec des zones de construction restreintes.
 
 ## Description
 
-**BuilderPlugin** allows server administrators to assign a **Builder role** to players with the following features:
+**BuilderPlugin** permet aux administrateurs de serveur d'attribuer le rôle **Builder** aux joueurs. Voici les fonctionnalités incluses :
 
-- 🎯 **Restricted Building Zones** — Builders can only place and break blocks within their assigned zone
-- 🚫 **Command Block Restrictions** — Builders cannot place or interact with command blocks, repeating command blocks, chain command blocks, structure blocks, structure voids, and jigsaw blocks
-- ⚔️ **PvP Protection** — Builders cannot damage other players or entities
-- 🛡️ **Gamemode Lock** — Builders are automatically set to Creative mode and cannot change it
-- 📋 **Visual Builder Tag** — Builders get a colored `[Builder]` prefix in the player list and above their name
-- 💾 **Persistent Data** — Builder roles and zones are saved automatically and persist across restarts
+- 🎯 **Zones de construction restreintes** — Les builders ne peuvent poser et casser des blocs que dans leur zoneassignée
+- 🚫 **Restriction des blocs de commande** — Les builders ne peuvent pas poser ou interagir avec les blocs de commande, les blocs de commande en chaîne, les blocs de commande répétitif, les blocs de structure, les vides de structure et les blocs jigsaw
+- ⚔️ **Protection PvP** — Les builders ne peuvent pas blesser les autres joueurs ou entités
+- 🛡️ **Verrouillage du mode de jeu** — Les builders sont automatiquement mis en mode Créatif et ne peuvent pas le changer
+- 📋 **Tag Builder visuel** — Les builders obtiennent un préfixe coloré `[Builder]` dans la liste des joueurs et au-dessus de leur tête
+- 💾 **Données persistantes** — Les rôles builder et les zones sont sauvegardés automatiquement et persistent au redémarrage du serveur
 
-## Commands
+## Commandes
 
-| Command | Description |
-|---------|-------------|
-| `/builder give <player>` | Assign the Builder role to a player |
-| `/builder remove <player>` | Remove the Builder role from a player |
-| `/builder setzone <player> <x1> <y1> <z1> <x2> <y2> <z2> [world]` | Define the building zone for a builder |
-| `/builder delzone <player>` | Delete the zone of a builder |
-| `/builder info <player>` | Show info about a builder (zone coordinates) |
-| `/builder list` | List all registered builders |
+| Commande | Description |
+|----------|-------------|
+| `/builder give <joueur>` | Attribuer le rôle Builder à un joueur |
+| `/builder remove <joueur>` | Retirer le rôle Builder à un joueur |
+| `/builder setzone <joueur> <x1> <y1> <z1> <x2> <y2> <z2> [monde]` | Définir la zone de construction d'un builder |
+| `/builder delzone <joueur>` | Supprimer la zone d'un builder |
+| `/builder info <joueur>` | Afficher les infos d'un builder (coordonnées de la zone) |
+| `/builder list` | Lister tous les builders enregistrés |
 
-> Alias: `/b`
+> Alias : `/b`
 
 ## Permissions
 
-| Permission | Description | Default |
+| Permission | Description | Défaut |
 |------------|-------------|---------|
-| `builderplugin.admin` | Access to all builder management commands | OP |
+| `builderplugin.admin` | Accès à toutes les commandes de gestion des builders | OP |
 
 ## Installation
 
-1. Download the latest `BuilderPlugin-X.X.X.jar` from the [Releases](https://github.com/herocraftlol/Builder-Plugin/releases)
-2. Place the JAR file in your server's `plugins/` folder
-3. Restart your server
-4. Configure messages in `plugins/BuilderPlugin/config.yml` if needed
+1. Téléchargez le dernier `BuilderPlugin-X.X.X.jar` depuis les [Releases](https://github.com/herocraftlol/Builder-Plugin/releases)
+2. Placez le fichier JAR dans le dossier `plugins/` de votre serveur
+3. Redémarrez votre serveur
+4. Configurez les messages dans `plugins/BuilderPlugin/config.yml` si nécessaire
 
 ## Configuration
 
-All messages can be customized in `plugins/BuilderPlugin/config.yml`. The plugin uses color codes with `&` (e.g., `&6` for gold).
+Tous les messages peuvent être personnalisés dans `plugins/BuilderPlugin/config.yml`. Le plugin utilise les codes couleur avec `&` (ex : `&6` pour l'or).
 
 ```yaml
 messages:
@@ -53,10 +53,10 @@ builder-tag:
   nametag-prefix: "&6[Builder]\n&r"
 ```
 
-## Version History
+## Historique des versions
 
-- **v1.0.0** — Initial release: Builder role management with zone restriction, command block protection, PvP protection, gamemode lock, and persistent storage.
+- **v1.0.0** — Version initiale : gestion du rôle Builder avec restriction de zone, protection des blocs de commande, protection PvP, verrouillage du mode de jeu et stockage persistant.
 
 ---
 
-*Minecraft version: 1.21 | API: Paper/Purpur*
+*Version Minecraft : 1.21 | API : Paper/Purpur*
